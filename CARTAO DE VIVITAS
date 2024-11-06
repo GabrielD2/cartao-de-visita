@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .cartao {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            width: 350px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .cartao .nome {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .cartao .cargo {
+            font-size: 16px;
+            color: #555;
+        }
+        .cartao .contato {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #777;
+        }
+        .cartao .contato a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        .cartao .contato a:hover {
+            text-decoration: underline;
+        }
+        .cartao .imagem {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: #fff;
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cartao">
+        <div class="imagem">
+            <span>AB</span> <!-- Inicial do nome -->
+        </div>
+        <div class="nome">Gabriel Duarte</div>
+        <div class="cargo">Desenvolvedor Web</div>
+        <div class="contato">
+            <p>Email: <a href="mailto:gabrielduarte2005@gmail.com">gabrielduarte2005@gmail.com</a></p>
+            <p>Telefone: <a href="tel:+5511999999999">(11) 98876-0396</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/gabriel duarte" target="_blank">Ana Beatriz</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
